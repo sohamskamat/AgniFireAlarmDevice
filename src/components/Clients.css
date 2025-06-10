@@ -1,0 +1,42 @@
+.clients {
+  background: #f7f9fa;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.clients h2 {
+  color: #e52d27;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.client-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.client-logo-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(21,101,192,0.07);
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.client-logo-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 24px rgba(229,45,39,0.13);
+}
+.client-logo-card img {
+  width: 80px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 0.7rem;
+}
+.client-logo-card p {
+  color: #1565c0;
+  font-weight: 600;
+  font-size: 1rem;
+} 
