@@ -1,7 +1,7 @@
 module.exports = {
   webpack: {
     configure: (webpackConfig) => {
-      webpackConfig.output.publicPath = '/';
+      webpackConfig.output.publicPath = '/AgniFireAlarmDevice/';
       return webpackConfig;
     },
   },
