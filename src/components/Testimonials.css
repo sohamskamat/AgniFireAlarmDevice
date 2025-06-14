@@ -4,7 +4,7 @@
   text-align: center;
 }
 .testimonials h2 {
-  color: #1565c0;
+  color: #e52d27;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
@@ -20,7 +20,7 @@
   border-radius: 16px;
   box-shadow: 0 2px 16px rgba(229,45,39,0.07);
   padding: 2rem 1.2rem;
-  border-left: 4px solid #1565c0;
+  border-left: 4px solid #e52d27;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 .testimonial-card:hover {
@@ -29,10 +29,10 @@
 }
 .testimonial-feedback {
   font-size: 1.1rem;
-  color: #e52d27;
+  color: #1565c0;
   margin-bottom: 1rem;
 }
 .testimonial-name {
-  color: #1565c0;
+  color: #e52d27;
   font-weight: 600;
 } 
